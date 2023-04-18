@@ -230,9 +230,9 @@ footer {
 .desktop {
   display: none;
 }
-/* .desktop-see {
+.desktop-see {
   display: none;
-} */
+}
 
 @media (min-width: 1440px) {
   .main-photo {
@@ -481,5 +481,8 @@ footer {
   }
   .icn:hover + .underline2 {
     background-color: white;
+  }
+  .desktop-see {
+    display: block;
   }
 }
